@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper{
+    height: 160vh;
+    width:100vw;
+    background-color: rgba(17, 17, 17, 0.905);
+}
+.container{
+    background-color: azure;
+    height: 90%;
+    width: 70%;
+    display: grid;
+    grid-template-columns:2.2fr 1fr;
+    grid-template-rows: 300px 200px 200px;
+    border: 2px solid black;
+    gap: 1px;
+    margin-left: 13%;
+    box-shadow: 1px 1px 9px rgb(187, 212, 212);
+}
+
+.arc3{
+border: 1px solid black;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.arc2{
+    margin-top: 10px;
+margin-bottom: 10px;
+}
+.arc1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.arc4{
+    margin-top: 10px;
+margin-bottom: 20px;
+}
+header h1{
+    text-align: center;
+    color: white;
+}
+.box{
+
+    box-shadow: 1px 1px 9px rgb(224, 237, 237);
+}
+#box1{
+    grid-area: 1/1/4/2;
+    padding:30px;
+    margin: 20px;
+    height: 140%;
+    width: 100%;
+}
+ul{
+    padding: 20px;
+}
+ol{
+    padding: 20px;
+}
+button{
+    border-radius: 20px;
+    background-color: aqua;
+    color: rgb(26, 26, 54);
+    margin: 20px;
+    padding: 5px;
+}
+.sh2{
+    margin-bottom: px;
+}
+#box2{
+    position: relative;
+    left :23%;
+    top: 40px;
+    height: 200px;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(203, 243, 243);
+}
+#box3{
+    position: relative;
+    left :23%;
+    height: 250px;
+    width: 50%;
+    bottom: 20px;
+    padding: 10%;
+    
+}
+a{
+    color: blue;
+}
+#box4{
+    position: relative;
+    top: 50px;
+    left :23%;
+    height: 300px;
+    width: 50%;
+    padding: 10%;
+    font-size: large;
+    
+    
+}
